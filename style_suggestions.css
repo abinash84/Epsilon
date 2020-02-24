@@ -1,0 +1,33 @@
+.banner{
+  width:100%;
+  height: 100vh;
+  background-image: url('images/laptop-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.row{
+  justify-content: center;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  color: aliceblue;
+    font-size: x-large;
+    text-align: center;
+}
+.col-lg-offset-6{
+  justify-content: center;
+display: flex;
+}
+.outercontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 30vh;
+}
